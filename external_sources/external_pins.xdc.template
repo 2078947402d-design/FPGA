@@ -1,0 +1,10 @@
+# NOT active. Copy to a reviewed XDC ONLY after physical pinout/VCCO confirmation.
+# Replace UNVERIFIED_VCCO with the reviewed legal IOSTANDARD only after measuring
+# Bank13 VCCO and checking DS187. The placeholder is deliberately invalid.
+# Physical pinout confirmation must be documented in PIN_MAP.md before activation.
+set_property PACKAGE_PIN U5 [get_ports {external_ch[0]}]
+set_property PACKAGE_PIN V7 [get_ports {external_ch[1]}]
+set_property PACKAGE_PIN W8 [get_ports {external_ch[2]}]
+set_property PACKAGE_PIN U9 [get_ports {external_ch[3]}]
+set_property IOSTANDARD UNVERIFIED_VCCO [get_ports {external_ch[*]}]
+set_property PULLDOWN true [get_ports {external_ch[*]}]

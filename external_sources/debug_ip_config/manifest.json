@@ -1,0 +1,16 @@
+{
+  "tool": "Vivado 2025.2",
+  "probe_count": 8,
+  "probe_widths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "depth": 1024,
+  "ila_xdc_sha256": "4E1F7A19ED82699605F066FA7C5D92BE9B167974FDC01E692329A3862AD8ADE4"
+}
